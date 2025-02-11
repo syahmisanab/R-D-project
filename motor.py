@@ -1,11 +1,11 @@
 import RPi.GPIO as GPIO
 import time
 
-# GPIO Pin Definitions
-IN1 = 17  # Motor A
-IN2 = 18
-IN3 = 22  # Motor B
-IN4 = 23
+# Define GPIO pins based on your custom board
+IN1 = 7   # Motor A
+IN2 = 6
+IN3 = 5   # Motor B
+IN4 = 9
 
 # GPIO setup
 GPIO.setmode(GPIO.BCM)
@@ -47,17 +47,20 @@ def stop_motors():
 
 try:
     print("Motors running...")
-    
+
+    # Move both motors forward at 70% speed
     motorA_forward(70)
     motorB_forward(70)
     time.sleep(2)
 
+    # Move both motors backward at 70% speed
     motorA_backward(70)
     motorB_backward(70)
     time.sleep(2)
 
+    # Stop motors
     stop_motors()
-    
+
 except KeyboardInterrupt:
     print("Stopping motors...")
     stop_motors()
