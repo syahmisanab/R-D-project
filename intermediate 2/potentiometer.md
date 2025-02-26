@@ -121,6 +121,25 @@ It functions as a **voltage divider**, outputting a variable voltage between **0
 3. **Real-World Use Cases:** How are potentiometers used in electronics and robotics?
 
 ---
+### 🧠 Mini Quiz (Quick & Easy!)
+
+1. What does a potentiometer control?  
+   - a) Light  
+   - b) Voltage  
+   - c) Temperature  
+
+2. What type of signal does a potentiometer produce?  
+   - a) Digital  
+   - b) Analog  
+
+3. What do you need to connect a potentiometer to a Raspberry Pi?  
+   - a) ADS1115  
+   - b) Nothing extra  
+   - c) A motor  
+
+**Answer Key:**  
+1 – b, 2 – b, 3 – a  
+---
 
 ## 🚀 Challenges (Push Your Limits!)
 
