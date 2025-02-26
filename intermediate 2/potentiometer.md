@@ -139,6 +139,7 @@ It functions as a **voltage divider**, outputting a variable voltage between **0
 
 **Answer Key:**  
 1 – b, 2 – b, 3 – a  
+
 ---
 
 ## 🚀 Challenges (Push Your Limits!)
