@@ -1,0 +1,17 @@
+from gpiozero import LED
+from gpiozero.pins.rpigpio import RPiGPIOFactory  # Explicitly use RPi.GPIO
+from time import sleep
+
+# Use RPi.GPIO as the pin factory
+factory = RPiGPIOFactory()
+
+led = LED(7, pin_factory=factory)  # Assign the factory
+
+try:
+    while True:-
+        led.on()
+        sleep(1)
+        led.off()
+        sleep(1)
+except KeyboardInterrupt:
+    print("\nExiting program...")
