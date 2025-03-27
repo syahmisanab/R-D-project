@@ -1,21 +1,21 @@
-# 🚀 Exercise: 4-Digit 7-Segment Display  
+## 🚀 Exercise: 4-Digit 7-Segment Display  
 
-## **Exercise 1: Countdown from 9999 to 0000**
+### **Exercise 1: Countdown from 9999 to 0000**
 🔧 Modify the script to display a countdown starting from 9999 down to 0000, updating every second.  
 
-### **🛠️ What You’ll Learn**
+#### **🛠️ What You’ll Learn**
 - How to loop through a number sequence and update the display.
 - How to ensure numbers are displayed in a 4-digit format.
 - How to clear the display when the countdown is complete.
 
-### **💡 Steps**
+#### **💡 Steps**
 1️⃣ Initialize the 7-segment display using the **HT16K33 driver**.  
 2️⃣ Start from **9999** and count down to **0000**.  
 3️⃣ Ensure the number is always **4 digits** (e.g., 42 → 0042).  
 4️⃣ Wait **1 second** before updating the display.  
 5️⃣ Clear the display after reaching **0000**.  
 
-### **📝 Python Code**
+#### **📝 Python Code**
 ```python
 import time
 import board
@@ -49,23 +49,23 @@ finally:
 
 ---
 
-## **Exercise 2: Display Current Time**
+### **Exercise 2: Display Current Time**
 🔧 Modify the script to display the current time (HH:MM) format. Ensure that the colon blinks every second.
 
-### **🛠️ What You’ll Learn**
+#### **🛠️ What You’ll Learn**
 - How to get the current time using `datetime.now()`.
 - How to format time into HHMM format for the display.
 - How to create a blinking effect on the colon (`:`) every second.
 - How to handle user interruptions (CTRL + C) safely.
 
-### **💡 Steps**
+#### **💡 Steps**
 1️⃣ Initialize the 7-segment display.  
 2️⃣ Retrieve the current time using `datetime.now()`.  
 3️⃣ Format the time to **HHMM** (24-hour format).  
 4️⃣ Enable the colon (`:`) to blink every second.  
 5️⃣ Repeat the process every second to keep the time updated.  
 
-### **📝 Python Code**
+#### **📝 Python Code**
 ```python
 import time
 import board
@@ -105,7 +105,7 @@ finally:
 
 ---
 
-## **Exercise 3: Motion-Based Alert**
+### **Exercise 3: Motion-Based Alert**
 🔧 Connect a motion sensor (PIR) to the Raspberry Pi. When motion is detected:
 
 ✅ Display **"ON"** on the 7-segment display.  
@@ -114,12 +114,12 @@ finally:
 
 When no motion is detected, display **"OFF"** and turn off the **buzzer** and **LED**.  
 
-### **🛠️ What You’ll Learn**
+#### **🛠️ What You’ll Learn**
 - How to detect motion using a **PIR sensor**.  
 - How to trigger the **7-segment display** and output devices (**LED & buzzer**).  
 - How to continuously monitor the environment for motion changes.  
 
-### **💡 Steps**
+#### **💡 Steps**
 1️⃣ Connect the **PIR motion sensor** to a GPIO pin (e.g., GPIO **17**).  
 2️⃣ Connect an **LED** and a **buzzer** to separate GPIO pins.  
 3️⃣ When motion is detected:  
@@ -130,7 +130,7 @@ When no motion is detected, display **"OFF"** and turn off the **buzzer** and **
    - Display **"OFF"**.  
    - Turn off both the **buzzer** and **LED**.  
 
-### **📝 Python Code**
+#### **📝 Python Code**
 ```python
 import time
 import board
