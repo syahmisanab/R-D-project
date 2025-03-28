@@ -1,4 +1,4 @@
-# 📝 LED Matrix (MAX7219) Quiz  
+## 📝 LED Matrix (MAX7219) Quiz  
 
 **1. What communication protocol does the MAX7219 use to interface with a microcontroller?**  
 - A) I2C  
