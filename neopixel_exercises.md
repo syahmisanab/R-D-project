@@ -1,8 +1,8 @@
-# 📝 Exercises: Controlling WS2812B (NeoPixel) LED Strip with Raspberry Pi  
+## 📝 Exercises: Controlling WS2812B (NeoPixel) LED Strip with Raspberry Pi  
 
 ---  
 
-## 🔹 Exercise 1: Implement a Lighting Effect  
+### 🔹 Exercise 1: Implement a Lighting Effect  
 
 **Objective:**  
 - Learn to control WS2812B (NeoPixel) LED strips using Python.  
@@ -21,7 +21,7 @@
 
 ---  
 
-## 🔹 Exercise 2: Change Effects Using a Matrix Button  
+### 🔹 Exercise 2: Change Effects Using a Matrix Button  
 
 **Objective:**  
 - Learn how to use a matrix button to change LED effects.  
@@ -49,7 +49,7 @@
 
 ---  
 
-## 🔹 Exercise 3: Display the Current Effect on an LCD Screen  
+### 🔹 Exercise 3: Display the Current Effect on an LCD Screen  
 
 **Objective:**  
 - Learn how to display text on an **LCD 1602** screen using I2C.  
