@@ -1,12 +1,12 @@
-# 🎯 Quiz: NeoPixel & Raspberry Pi Basics
+## 🎯 Quiz: NeoPixel & Raspberry Pi Basics
 
 Test your understanding with this **10-question multiple-choice quiz**!  
 
 ---
 
-## 📌 Quiz Questions
+### 📌 Quiz Questions
 
-### 1. What type of LED strip is used in this project?
+#### 1. What type of LED strip is used in this project?
 - A) WS2811  
 - B) WS2812B (NeoPixel) ✅  
 - C) APA102  
@@ -14,7 +14,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 2. What is the main advantage of WS2812B LEDs?
+#### 2. What is the main advantage of WS2812B LEDs?
 - A) Each LED can be controlled individually ✅  
 - B) They require multiple GPIO pins  
 - C) They only support a single color  
@@ -22,7 +22,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 3. Which GPIO pin is used to control the WS2812B data line?
+#### 3. Which GPIO pin is used to control the WS2812B data line?
 - A) GPIO 17  
 - B) GPIO 18 ✅  
 - C) GPIO 22  
@@ -30,7 +30,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 4. What library is used to control NeoPixels in Python?
+#### 4. What library is used to control NeoPixels in Python?
 - A) `RPi.GPIO`  
 - B) `busio`  
 - C) `neopixel` ✅  
@@ -38,7 +38,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 5. What does `auto_write=False` do when initializing the NeoPixel strip?
+#### 5. What does `auto_write=False` do when initializing the NeoPixel strip?
 - A) It prevents automatic updates, requiring `pixels.show()` to refresh the LEDs ✅  
 - B) It automatically updates the LEDs without needing `pixels.show()`  
 - C) It turns off the LEDs when the script starts  
@@ -46,7 +46,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 6. Which of the following effects cycles through red, green, and blue?
+#### 6. Which of the following effects cycles through red, green, and blue?
 - A) Chasing Effect  
 - B) Breathing Effect  
 - C) Color Cycle ✅  
@@ -54,7 +54,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 7. What function is responsible for generating colors in the Rainbow Effect?
+#### 7. What function is responsible for generating colors in the Rainbow Effect?
 - A) `color_cycle()`  
 - B) `rainbow_cycle()`  
 - C) `wheel()` ✅  
@@ -62,7 +62,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 8. What happens when you press Ctrl+C while the script is running?
+#### 8. What happens when you press Ctrl+C while the script is running?
 - A) The LEDs stay on indefinitely  
 - B) The script ignores the command  
 - C) The script gracefully exits and turns off the LEDs ✅  
@@ -70,7 +70,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 9. How is brightness controlled in the NeoPixel library?
+#### 9. How is brightness controlled in the NeoPixel library?
 - A) By changing the voltage of the Raspberry Pi  
 - B) Using `pixels.brightness` ✅  
 - C) By increasing the delay between color changes  
@@ -78,7 +78,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-### 10. What command is used to install the required NeoPixel library?
+#### 10. What command is used to install the required NeoPixel library?
 - A) `pip install rpi-gpio`  
 - B) `pip install ws2812`  
 - C) `pip install adafruit-circuitpython-neopixel` ✅  
@@ -86,7 +86,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-## 📝 Activity Reflection & Questions
+### 📝 Activity Reflection & Questions
 
 1. Why do WS2812B LEDs only need one GPIO pin for multiple LEDs?  
 2. Which lighting effect do you think is the most visually impressive? Why?  
@@ -96,7 +96,7 @@ Test your understanding with this **10-question multiple-choice quiz**!
 
 ---
 
-## 📚 Additional Resources
+### 📚 Additional Resources
 
 - 🔗 **NeoPixel Guide:** [Adafruit NeoPixel Uber Guide](https://learn.adafruit.com/adafruit-neopixel-uberguide)  
 - 🔗 **Raspberry Pi GPIO Documentation:** [RPi.GPIO Library](https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/)  
