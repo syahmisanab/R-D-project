@@ -1,4 +1,4 @@
-# 📝 Exercises: LED Matrix (MAX7219) with Raspberry Pi
+## 📝 Exercises: LED Matrix (MAX7219) with Raspberry Pi
 
 ## 🔹 Exercise 1: Draw Custom Shapes on the Matrix
 
